@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/1289153659166527590/1289539213821480982/vecteezy_pink-japanese-style-wave-pattern-seamless-background_7516583-1.jpg?ex=66f9307b&is=66f7defb&hm=13b988abf458737a436f09264e9ce22fd3533129624734f7960c65a13963ca14&');
+    background-size: 500px;
+}
+.hero h1{
+    background-color: palevioletred;
+    color: snow;
+    text-align:center;
+    font-size: 48px;
+    font-family: Dosis;
+    font-variant: bold;
+    box-shadow: 0 4px 2px -2px pink;
+  }
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.left-column,.right-column{
+    flex-basis: 50%
+}
+.left-column{
+    background-color: palevioletred;
+    margin-left: 80px;
+    margin-right: 30px;
+    border-radius: 8px;
+    height: 300px;
+}
+.left-column h1{
+    color: snow;
+    font-size: 35px;
+    font-family: Dosis;
+    border-radius: 8px;
+}
+.left-column h2{
+    margin-top: 20px;
+    color: snow;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.right-column img{
+    height: 300px;
+    border-radius: 8px;
+    margin-right: 80px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.card{
+    width: 200px;
+    background-color: snow;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin:20px;
+    margin-right: 100px;
+}
+.card img{
+    width:100%;
+    height:auto;
+}
+.card h3{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+.card-content{
+    padding: 12px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.review{
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.review h1{
+    border-radius: 8px;
+}

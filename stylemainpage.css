@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/1289153659166527590/1289539213821480982/vecteezy_pink-japanese-style-wave-pattern-seamless-background_7516583-1.jpg?ex=66f9307b&is=66f7defb&hm=13b988abf458737a436f09264e9ce22fd3533129624734f7960c65a13963ca14&');
+    background-size: 500px;
+}
+.hero{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    background-color:snow;
+    margin: 0px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.navbar h1{
+    margin-left: 30px;
+}
+.navbar img{
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul{
+    flex: 1;
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    list-style: none;  
+    margin: 0 15px;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding: 0 10px;
+    display: inline-block;
+    transition: all ease 0.3s;
+}
+ul li a:hover{
+    color:pink;
+}
+ul .submenu{
+    position: absolute;
+    text-align:left;
+    border-radius: 8px;
+    width: 190px;
+    background-color: pink;
+    box-shadow: 0 20px 45px #00000020;
+    margin-top: 50px;
+    opacity: 0;
+    z-index: 100;
+    transition: all ease 0.5s;
+}
+ul li:hover .submenu{
+    z-index: 1000;
+    opacity: 1;
+    margin-top: 10px;
+}
+ol li{
+    margin-left: 25px;
+}
+.navbar-icons img{
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navbar-icons img{
+    margin-left: 40px;
+}
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.left-column,.right-column{
+    flex-basis: 50%
+}
+.right-column img{
+    width: 500px;
+    border-radius: 8px;
+    height: 500px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.left-column{
+    height: 500px;
+    border-radius: 8px;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: snow;
+}
+.left-column h1{
+    font-size: 50px;
+    color:black;
+    margin-left: 20px;
+}
+.left.column h3{
+    margin-top: 15px;
+    font-size: 40px;
+    color:black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+span{
+    color:palevioletred;
+    margin-left: 20px;
+}
+.left-column h3 img{
+    height: 30px;
+}
+p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:black;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.social-icons{
+    width: 200px;
+    text-align: left;
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 14px; 
+    margin-left: 20px;
+}
+.bestmenu{
+    text-align: center;
+    background-color:snow;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.bestmenu h1{
+    justify-content: center;
+    color: palevioletred;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.card{
+    margin-top: 30px;
+    width: 200px;
+    background-color: snow;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin:20px;
+    margin-right: 100px;
+}
+.card h3{
+    text-align:center;
+}
+.card p{
+    text-align: center;
+    margin-right: 20px;
+}
+.card img{
+    width:100%;
+    height:auto;
+}
+.card-content{
+    padding: 12px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
