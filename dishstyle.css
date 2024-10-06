@@ -5,7 +5,7 @@
     font-family: 'Dosis', sans-serif;
 }
 body{
-    background-image: url('https://cdn.discordapp.com/attachments/1289153659166527590/1289539213821480982/vecteezy_pink-japanese-style-wave-pattern-seamless-background_7516583-1.jpg?ex=66f9307b&is=66f7defb&hm=13b988abf458737a436f09264e9ce22fd3533129624734f7960c65a13963ca14&');
+    background-image: url('https://cdn.discordapp.com/attachments/1289153659166527590/1289539213821480982/vecteezy_pink-japanese-style-wave-pattern-seamless-background_7516583-1.jpg?ex=6703bc7b&is=67026afb&hm=b43a2558ef37b4f07056d00dda84aad2e8a2ebfaf910e1340db5e5cc0fb56f37&');
     background-size: 500px;
 }
 .hero h1{
@@ -83,10 +83,116 @@ body{
     margin-bottom: 8px;
 }
 .review{
-    margin-top: 60px;
+    margin-top: 350px;
     margin-left: 80px;
     margin-right: 80px;
 }
 .review h1{
     border-radius: 8px;
 }
+.hero table{
+    border-collapse: collapse;
+    margin-top: 100px;
+    font-size: 20px;
+    width: 600px;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    font-weight: bold;
+}
+.hero table thead tr{
+    width: 50px;
+    background-color: palevioletred;
+    color: snow;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid palevioletred;
+}
+.hero table th,
+.hero table td{
+    padding: 12px 15px;   
+}
+.product-image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid palevioletred;
+} 
+.hero table tbody tr{
+    border-bottom: 1px solid palevioletred;
+    border-left: 1px solid palevioletred;
+    border-right: 1px solid palevioletred;
+    color: palevioletred;
+}
+.hero table tbody tr:nth-of-type(even){
+    background-color: snow;
+}
+.hero table tbody tr:last-of-type{
+    border-bottom: 1px solid palevioletred;
+}
+.comment-box{
+    margin-top: 30px;
+    border-radius: 4px;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+}
+.comment-box h2{
+    color: palevioletred;
+}
+.comment-box textarea{
+    background: snow;
+    height: 200px;
+    width: 550px;
+    border-color: palevioletred;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.comment-box textarea:focus{
+    outline-color: pink;
+}
+.comment-box .comment-submit{
+    margin-right: 70px;
+    float: right;
+    padding: 6px 14px;
+    border: none;
+    background: palevioletred;
+    border-radius: 4px;
+    color: snow;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.comment-box .comment-submit:hover{
+    background: pink;
+}
+.comment-box input{
+    margin-top: 20px;
+    width: 550px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid palevioletred;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.comment-box input:focus{
+    outline-color: pink;
+}
+.rating div{
+    color: palevioletred;
+    margin-top: 410px;
+    margin-left: 12px;
+}
+.rating input{
+    display: none;
+    cursor: pointer
+}
+.rating input + label{
+    font-size: 60px;
+    text-shadow: 1px 1px 0 pink;
+    cursor: pointer;
+}
+.rating input:checked + label ~ label{
+    color: #838383;
+}
+
