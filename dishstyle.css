@@ -126,6 +126,9 @@ body{
 .hero table tbody tr:nth-of-type(even){
     background-color: snow;
 }
+.hero table tbody tr:nth-of-type(odd){
+    background-color:pink;
+}
 .hero table tbody tr:last-of-type{
     border-bottom: 1px solid palevioletred;
 }
@@ -137,7 +140,11 @@ body{
     overflow: hidden;
 }
 .comment-box h2{
-    color: palevioletred;
+    color: snow;
+    background-color: palevioletred;
+    border-radius: 8px;
+    margin-right: 70px;
+    text-align: center;
 }
 .comment-box textarea{
     background: snow;
