@@ -5,7 +5,7 @@
     font-family: 'Dosis', sans-serif;
 }
 body{
-    background-image: url('https://cdn.discordapp.com/attachments/1289153659166527590/1289539213821480982/vecteezy_pink-japanese-style-wave-pattern-seamless-background_7516583-1.jpg?ex=6703bc7b&is=67026afb&hm=b43a2558ef37b4f07056d00dda84aad2e8a2ebfaf910e1340db5e5cc0fb56f37&');
+    background-image: url('background.jpg');
     background-size: 500px;
 }
 .hero h1{
@@ -66,8 +66,8 @@ body{
     margin-right: 100px;
 }
 .card img{
-    width:100%;
-    height:auto;
+    width:200px;
+    height:200px;
 }
 .card h3{
     text-align: center;
@@ -126,6 +126,9 @@ body{
 .hero table tbody tr:nth-of-type(even){
     background-color: snow;
 }
+.hero table tbody tr:nth-of-type(odd){
+    background-color:pink;
+}
 .hero table tbody tr:last-of-type{
     border-bottom: 1px solid palevioletred;
 }
@@ -137,7 +140,11 @@ body{
     overflow: hidden;
 }
 .comment-box h2{
-    color: palevioletred;
+    color: snow;
+    background-color: palevioletred;
+    border-radius: 8px;
+    margin-right: 70px;
+    text-align: center;
 }
 .comment-box textarea{
     background: snow;
