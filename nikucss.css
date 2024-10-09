@@ -34,8 +34,8 @@ body {
     width: 400px;
     border-radius: 8px;
     height: 400px;
-    margin-left: 145px;
-    margin-bottom: 30px;
+    margin-left: 160px;
+    margin-bottom: 15px;
     box-shadow: 0 4px 2px -2px gray;
 }
 
@@ -46,52 +46,98 @@ body {
 
 
 .desc{
-    width: 900px;
+    width: 1100px;
     border-radius: 8px;
     height: 400px;
     background-color:snow;
-    margin-right: 145px;
+    margin-right: 160px;
     box-shadow: 0 4px 2px -2px gray;
 }
 
 h1{
-    margin-left: 240px;
+    @import url(https://fonts.googleapis.com/css?family=Lexend);
+    margin-left: 30px;
     color: rgb(133, 19, 95);
-    font-size: 52px;
-    font-family: verdana;
+    font-size: 60px;
+    font-family: "Lexend";
     font-variant: bold;
 }
 
 h2 {
+    @import url(https://fonts.googleapis.com/css?family=Lexend);
     background-color: palevioletred;
     border-radius: 8px;
     color: snow;
     text-align:center;
     font-size: 30px;
-    font-family: verdana;
+    font-family: "Lexend";
     font-variant: bold;
     text-shadow: 0 4px 2px -2px gray;
     box-shadow: 0 4px 2px -2px gray;
 }
 
-p {
+h4 {
+    @import url(https://fonts.googleapis.com/css?family=Lexend);
     color: rgb(133, 19, 95);
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+    font-size: 20px;
+    font-family: "Lexend";
     font-variant: bold;
+    margin-left: 50px;
 }
 
-.ingredients{
-    flex-basis: 50%;
+ul a {
+    @import url(https://fonts.googleapis.com/css?family=Lexend);
+    color: rgb(133, 19, 95);
+    font-size: 20px;
+    font-family: "Lexend";
+    text-align: center;
+    margin-left: 500px;
+}
+
+p {
+    @import url(https://fonts.googleapis.com/css?family=Lexend);
+    color: rgb(133, 19, 95);
+    font-size: 18px;
+    font-family: "Lexend";
+    text-align: center;
+}
+
+.divider{
+    display: flex;
+    flex-wrap: column;
+}
+
+.left-divider{
+    position:absolute;
+    float: left;
+    margin-left:10px;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.customer-container {
+    flex: 1;
+    background-color: snow;
+    border-radius: 8px;
+    width: 80%;
+    height: 310px;
+    margin-left: 145px;
+    margin-right: 20px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.recipe-container{
+    margin-left: 760px;
+    width: 670px;
 }
 
 .ingredients table{
     border-radius: 8px;
     overflow: hidden;
-    margin-left: 145px;
-    width: 100px;
-    height: 600px;
     background-color:snow;
     box-shadow: 0 4px 2px -2px gray;
 }
@@ -111,67 +157,91 @@ table, td, tr{
 }
 
 thead{
+    @import url(https://fonts.googleapis.com/css?family=Lexend);
     background-color: palevioletred;
     font-size: 24px;
     color: snow;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Lexend";
 }
 
 thead, th, td{
     padding: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 td{
+    @import url(https://fonts.googleapis.com/css?family=Lexend);
     color: palevioletred;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Lexend";
 }
 
 a {
+    @import url(https://fonts.googleapis.com/css?family=Lexend);
     color: rgb(133, 19, 95);
     font-size: 24px;
-    font-family: verdana;
+    font-family: "Lexend";
     text-align: center;
     font-variant: bold;
 }
 
-  .customer {
-    width: 80%;
-    margin-left: 145px;
-    margin-bottom:20px;
-}
 
-  form input{   
-    display: block;  
-    width: 80%;   
+form input{   
+    display: block;    
     margin-bottom: 10px;
     background: snow;
     height: 20px;
-    width: 600px;
+    width: 98%;
     border-color: pink;
     padding: 5px;
     border-radius: 4px;
-    margin-top: 10px;
     box-shadow: 0 4px 2px -2px gray;
 }
 
 form textarea {
-    display: block;  
-    width: 100%;   
+    display: block;     
     margin-bottom: 10px;
     background: snow;
     height: 100px;
-    width: 1125px;
+    width: 98%;
     border-color: pink;
     padding: 5px;
     border-radius: 4px;
-    margin-top: 10px;
     box-shadow: 0 4px 2px -2px gray;
 }
 
-  form button {
+form button {
     padding: 10px;
     width: 100%;
     box-shadow: 0 4px 2px -2px gray;
 }
+
+.socials{
+    text-align: center;
+    margin-left: 145px;
+}
+
+.socials h2{
+    margin-top: 20px;
+    width: 580px;
+    background-color: palevioletred;
+    color: snow;
+    text-align:center;
+    font-size: 30px;
+    font-family: "Lexend";
+    font-variant: bold;
+    text-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 4px 2px -2px gray;
+    border-radius: 8px;
+
+}
+
+.socials img{
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+

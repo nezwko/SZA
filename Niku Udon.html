@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Niku Udon"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niku Udon</title>
     <link rel="stylesheet" href="nikucss.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend">
     <link rel="icon" href="logo.png">
 </head>
 
@@ -15,6 +14,9 @@
     <div class ="header">
       <img src="logo.png">
       <h1>NIKU UDON</h1>
+      <ul>
+       <a href="index.html">Home</a>
+      </ul>
     </div>
   </div>
     
@@ -23,13 +25,13 @@
       <img src="image_niku udon.jpg">
     </div>
     <div class ="desc">
-      <h2>DESCRIPTION</h2>
+      <h2>Description</h2>
       <p>Craving a hot and steamy bowl of soup? Introducing a Japanese cuisine,<br>
           Niku udon. It serves the best taste, presentation, and satisfaction. Niku udon is<br>
           served with slices of tender beef, hence the name "niku". Along with its soup with <br>
           hints of soy sauce, ensuring pleasure to your taste buds! Topped with green<br>
           onions,kamaboko, and vegetable garnishes.</p>
-      <h2>CUSTOMER REVIEWS!</h2>
+      <h2>Customer Reviews</h2>
       <p>
         "Best Niku Udon I've Ever Tasted!" <br>
         "food was great. place was great. just 10/10" <br>
@@ -39,58 +41,72 @@
     </div>
   </div>
 
-  <div class="recipe-container">
-    <div class="ingredients">
-      <table style="width:80%">
-        <tr>
-          <thead>
-            <th style="width:10%">No.</th>
-            <th style="width:60%">Instructions</th>
-            <th style="width:40%">Picture</th>
-          </thead>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Cook the udon noodles</td>
-          <td><img src="cookudon.jpg"></td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Prepare the beef</td>
-          <td><img src="preparedbeef.jpg"></td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Flavor the beef</td>
-          <td><img src="seasonedbeef.jpg"></td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Make the broth</td>
-          <td><img src="broth.jpg"></td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Assemble the Udon</td>
-          <td><img src="plainudon.jpg"></td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Garnish</td>
-          <td><img src="image_niku udon.jpg"></td>
-        </tr>
-      </table>
+  <div class ="divider">
+    <div class ="left-divider">
+      <div class="customer-container">
+        <h2>Review Our Dish!</h2>
+        <form action="">
+            <input type="text" name="full_name" placeholder="Enter Your Name">
+            <input type="email" name="email" placeholder="Enter Your Email Address">
+            <textarea name="comment" placeholder="Type Your Comment"></textarea>
+            <button class="comment-submit">Submit</button>
+        </form>
+      </div>
+
+      <div class ="socials">
+        <h2>Visit Us On Our Social Media!</h2>
+        <a href="https://www.instagram.com/"><img src="instagram.webp"></a>
+        <a href="https://www.tiktok.com/"><img src="tiktok.webp"></a>
+        <a href="https://www.youtube.com/"><img src="youtube.png"></a>
+        <a href="https://www.x.com/"><img src="x.avif"></a>
+      </div>
+    </div>
+
+    <div class="recipe-container">
+      <div class="ingredients">
+        <table style="width:100%">
+          <tr>
+            <thead>
+              <th style="width:10%">No.</th>
+              <th style="width:60%">Instructions</th>
+              <th style="width:40%">Picture</th>
+            </thead>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Cook the udon noodles</td>
+            <td><img src="cookudon.jpg"></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Prepare the beef</td>
+            <td><img src="preparedbeef.jpg"></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Flavor the beef</td>
+            <td><img src="seasonedbeef.jpg"></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Make the broth</td>
+            <td><img src="broth.jpg"></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Assemble the Udon</td>
+            <td><img src="plainudon.jpg"></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Garnish</td>
+            <td><img src="image_niku udon.jpg"></td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
 
-  <div class="customer">
-    <h2>REVIEW OUR DISH!</h2>
-    <form action="">
-        <input type="text" name="full_name" placeholder="Enter Your Name">
-        <input type="email" name="email" placeholder="Enter Your Email Address">
-        <textarea name="comment" placeholder="Type Your Comment"></textarea>
-        <button class="comment-submit">Submit</button>
-    </form>
-  </div>
+  
 </body>
 </html>
