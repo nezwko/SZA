@@ -2,84 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width, initial-scale=1">
     <meta name="description" content="Niku Udon"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niku Udon</title>
+    <link rel="stylesheet" href="nikucss.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="icon" href="logo.png">
 </head>
+
 <body>
-    <style>
-    body {
-        background-color: snow;
-      }
-
-      h1 {
-        background-color: palevioletred;
-        color: snow;
-        text-align:center;
-        font-size: 48px;
-        font-family: verdana;
-        font-variant: bold;
-        box-shadow: 0 4px 2px -2px gray;
-      }
-
-      h2 {
-        color: rgb(133, 19, 95);
-        text-align:center;
-        font-size: 30px;
-        font-family: verdana;
-        font-variant: bold;
-        text-shadow: 0 4px 2px -2px gray;
-      }
+  <div class ="hero">
+    <div class ="header">
+      <img src="logo.png">
+      <h1>NIKU UDON</h1>
+    </div>
+  </div>
     
-      img {
-        align: center;
-        border: 1px solid lightpink;
-        border-radius: 4px lightpink;
-        padding: 10px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
-
-      p {
-        color: rgb(133, 19, 95);
-        font-size: 18px;
-        font-family: verdana;
-        text-align: center;
-        font-variant: bold;
-      }
-
-      a {
-        color: rgb(133, 19, 95);
-        font-size: 24px;
-        font-family: verdana;
-        text-align: center;
-        font-variant: bold;
-      }
-
-    </style>
-    <h1>NIKU UDON</h1>
-
-    <img src="image_niku udon.jpg">
-
-    <h2>DESCRIPTION</h2>
-    <p>Craving a hot and steamy bowl of soup? Introducing a Japanese cuisine, Niku udon. <br>
-        It serves the best taste, presentation, and satisfaction. Niku udon is served with slices of tender beef, <br>
-        hence the name "niku". Along with its soup with hints of soy sauce, ensuring pleasure to your taste buds! <br>
-        Topped with green onions, kamaboko, and vegetable garnishes.</p>
-
-    <h2>CUSTOMER REVIEWS!</h2>
-    <p>
+  <div class="banner">
+    <div class ="picture">
+      <img src="image_niku udon.jpg">
+    </div>
+    <div class ="desc">
+      <h2>DESCRIPTION</h2>
+      <p>Craving a hot and steamy bowl of soup? Introducing a Japanese cuisine,<br>
+          Niku udon. It serves the best taste, presentation, and satisfaction. Niku udon is<br>
+          served with slices of tender beef, hence the name "niku". Along with its soup with <br>
+          hints of soy sauce, ensuring pleasure to your taste buds! Topped with green<br>
+          onions,kamaboko, and vegetable garnishes.</p>
+      <h2>CUSTOMER REVIEWS!</h2>
+      <p>
         "Best Niku Udon I've Ever Tasted!" <br>
         "food was great. place was great. just 10/10" <br>
         "Came here just because I was bored. Came out with a very happy tummy" <br>
         "suiiiiiiiiiiiiiiiiiii"
-    </p>
+      </p>
+    </div>
+  </div>
 
-    <a
-        href="https://www.instagram.com">Visit our Instagram!
-    </a>
+  <div class="recipe-container">
+    <div class="ingredients">
+      <table style="width:80%">
+        <tr>
+          <thead>
+            <th style="width:10%">No.</th>
+            <th style="width:60%">Instructions</th>
+            <th style="width:40%">Picture</th>
+          </thead>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Cook the udon noodles</td>
+          <td><img src="cookudon.jpg"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Prepare the beef</td>
+          <td><img src="preparedbeef.jpg"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Flavor the beef</td>
+          <td><img src="seasonedbeef.jpg"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Make the broth</td>
+          <td><img src="broth.jpg"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Assemble the Udon</td>
+          <td><img src="plainudon.jpg"></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Garnish</td>
+          <td><img src="image_niku udon.jpg"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
 
+  <div class="customer">
+    <h2>REVIEW OUR DISH!</h2>
+    <form action="">
+        <input type="text" name="full_name" placeholder="Enter Your Name">
+        <input type="email" name="email" placeholder="Enter Your Email Address">
+        <textarea name="comment" placeholder="Type Your Comment"></textarea>
+        <button class="comment-submit">Submit</button>
+    </form>
+  </div>
 </body>
 </html>
