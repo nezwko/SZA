@@ -5,7 +5,7 @@
     font-family: 'Dosis', sans-serif;
 }
 body{
-    background-image: url('background.jpg');
+    background-image: url('mainbg.jpg');
     background-size: 500px;
 }
 .hero h1{
@@ -66,8 +66,8 @@ body{
     margin-right: 100px;
 }
 .card img{
-    width:200px;
-    height:200px;
+    width:100%;
+    height:auto;
 }
 .card h3{
     text-align: center;
@@ -126,9 +126,6 @@ body{
 .hero table tbody tr:nth-of-type(even){
     background-color: snow;
 }
-.hero table tbody tr:nth-of-type(odd){
-    background-color:pink;
-}
 .hero table tbody tr:last-of-type{
     border-bottom: 1px solid palevioletred;
 }
@@ -140,11 +137,7 @@ body{
     overflow: hidden;
 }
 .comment-box h2{
-    color: snow;
-    background-color: palevioletred;
-    border-radius: 8px;
-    margin-right: 70px;
-    text-align: center;
+    color: palevioletred;
 }
 .comment-box textarea{
     background: snow;
