@@ -4,8 +4,8 @@ body {
 }
 
 .hero{
-    flex-basis: 50%;
-    width: 80%;
+    flex-basis: 100%;
+    width: 90%;
     margin: auto;
 }
 
@@ -15,9 +15,14 @@ body {
     border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
     box-shadow: 0 4px 2px -2px gray;
 }
 
+.header h1 {
+    flex-grow:1;
+}
 .header img{  
     height: 150px;
     margin-left: 40px;  
@@ -26,32 +31,31 @@ body {
 }
 
 .picture{
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 
 .picture img{
     border: 2px palevioletred solid;
-    width: 400px;
+    width: 90%;
     border-radius: 8px;
-    height: 400px;
-    margin-left: 160px;
-    margin-bottom: 15px;
     box-shadow: 0 4px 2px -2px gray;
 }
 
 .banner{
+    flex-basis: 100%;
+    width: 90%;
+    margin: auto;
     display: flex;
     margin-top: 20px;
 }
 
 
 .desc{
-    width: 1100px;
+    width: 190%;
     border-radius: 8px;
-    height: 400px;
     background-color:snow;
-    margin-right: 160px;
     box-shadow: 0 4px 2px -2px gray;
+    margin-bottom:20px;
 }
 
 h1{
@@ -85,13 +89,23 @@ h4 {
     margin-left: 50px;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul a {
     @import url(https://fonts.googleapis.com/css?family=Lexend);
     color: rgb(133, 19, 95);
     font-size: 20px;
     font-family: "Lexend";
     text-align: center;
-    margin-left: 500px;
+    margin: 0;
+    padding: 10px 20px;
 }
 
 p {
@@ -102,15 +116,23 @@ p {
     text-align: center;
 }
 
-.divider{
+.divider {
     display: flex;
-    flex-wrap: column;
+    flex-basis: 100%;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
 }
 
-.left-divider{
-    position:absolute;
-    float: left;
-    margin-left:10px;
+.left-divider {
+    flex: 1; 
+    margin-right: 20px;
+}
+
+.socials {
+    flex: 1;
+    margin-left: 20px; 
+    text-align: center; 
 }
 
 .content-wrapper {
@@ -120,19 +142,17 @@ p {
 }
 
 .customer-container {
-    flex: 1;
     background-color: snow;
     border-radius: 8px;
-    width: 80%;
-    height: 310px;
-    margin-left: 145px;
-    margin-right: 20px;
+    width: 90%;
+    margin: auto;
     box-shadow: 0 4px 2px -2px gray;
+    padding: 20px; 
 }
 
 .recipe-container{
-    margin-left: 760px;
-    width: 670px;
+    width: 90%;
+    margin: auto;
 }
 
 .ingredients table{
@@ -165,7 +185,7 @@ thead{
 }
 
 thead, th, td{
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -187,6 +207,7 @@ a {
 
 
 form input{   
+    width: 98%;
     display: block;    
     margin-bottom: 10px;
     background: snow;
@@ -199,6 +220,7 @@ form input{
 }
 
 form textarea {
+    width: 98%;
     display: block;     
     margin-bottom: 10px;
     background: snow;
@@ -216,20 +238,15 @@ form button {
     box-shadow: 0 4px 2px -2px gray;
 }
 
-.socials{
-    text-align: center;
-    margin-left: 145px;
-}
-
 .socials h2{
     margin-top: 20px;
-    width: 580px;
+    width: 100%;
     background-color: palevioletred;
     color: snow;
     text-align:center;
     font-size: 30px;
     font-family: "Lexend";
-    font-variant: bold;
+    font-weight: bold;
     text-shadow: 0 4px 2px -2px gray;
     box-shadow: 0 4px 2px -2px gray;
     border-radius: 8px;
@@ -243,5 +260,61 @@ form button {
 
 }
 
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .divider {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .left-divider, .socials {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
 
+    body {
+        font-size: 14px;
+    }
+
+    .header img {
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .banner, .recipe-container, .divider {
+        width: 100%;
+        margin: auto;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .desc {
+        width: 100%;
+    }
+
+    .ingredients img {
+        height: 70px;
+    }
+
+    ul {
+        flex-direction: column; /* Stack links vertically on mobile */
+        margin: 10px 0; /* Add spacing for better appearance */
+    }
+
+    ul a {
+        font-size: 18px; /* Slightly smaller font for better fit */
+        padding: 8px 16px; /* Adjust padding for mobile */
+    }
+
+}
