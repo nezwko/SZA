@@ -83,7 +83,7 @@ body{
     margin-bottom: 8px;
 }
 .review{
-    margin-top: 350px;
+    margin-top: 30px;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -178,21 +178,85 @@ body{
 .comment-box input:focus{
     outline-color: pink;
 }
-.rating div{
-    color: palevioletred;
-    margin-top: 410px;
+.right-column iframe{
+    margin-top: 450px;
     margin-left: 12px;
+    border-radius: 8px;
+    width: 550px; 
+    height: 300px;
 }
-.rating input{
-    display: none;
-    cursor: pointer
-}
-.rating input + label{
-    font-size: 60px;
-    text-shadow: 1px 1px 0 pink;
-    cursor: pointer;
-}
-.rating input:checked + label ~ label{
-    color: #838383;
+
+    
+@media screen and (max-width: 480px) {
+    .banner {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .left-column, .right-column{
+        flex-basis: 100%;
+    }
+    .left-column{
+        margin: 10px;
+        padding: 10px;
+        width: 380px;
+    }
+    .right-column iframe{
+        margin-top: 380px;
+        margin-left: 10px;
+        margin-right:10px;
+        width: 380px;
+        height: 200px;
+    }
+
+    .right-column img{
+        margin: 10px;
+        width: 380px;
+        height: 200px;
+        margin-left: 10px;
+    }
+
+    .hero h1{
+        font-size: 36px;
+    }
+
+    .left-column table th{ 
+        color: palevioletred;
+        background-color: snow;
+    }
+
+    .left-column table{
+        font-size: 14px;
+        margin-top: 10px; 
+        background-color: snow;
+        margin-bottom: 10px;
+        width: 360px;
+    }
+
+    .comment-box input, .comment-box textarea{
+        font-size: 14px; 
+        width: 370px;
+        margin-left: 10px;
+    }
+
+    .card-container{
+        margin: 10px;
+    }
+
+    .card{
+        margin: 10px auto; 
+    }
+
+    .hero h1{
+        font-size: 28px;
+    }
+    .left-column h2{
+        font-size: 16px;
+    }
+    .comment-box textarea{
+        height: 120px;
+    }
+    .card-content h3{
+        font-size: 18px; 
+    }
 }
 
