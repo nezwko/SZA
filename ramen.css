@@ -1,0 +1,341 @@
+/*BACKGROUND IMG*/
+body {
+  background-image: url("mainbg.jpg");
+  background-size: 500px;
+}
+
+/*HEADER NAV LENGTH*/
+.hero{
+  flex-basis: 100%;
+  width: 75%;
+  margin: auto;
+}
+
+/*HEADER NAV*/
+.header{
+  margin-top:35px;
+  background-color:#fffafa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5px;
+  border-style: solid;
+  border-color: rgb(165, 48, 115);
+  box-shadow: 2px 2px 2px 2px rgb(230, 110, 178);
+}
+
+/*CHICKEN SHOYU RAMEN TITLE*/
+.header h1 {
+  flex-grow:1;
+}
+
+/*LOGO*/
+.header img{  
+  height: 100px;
+  margin-left: 20px;  
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*CHICKEN SHOYU RAMEN PIC MARGIN*/
+.pic{
+  flex-basis: 100%;
+  margin-left: 0.5%;
+  margin-right: 2.5%;
+  margin-top: 20px;
+}
+
+/*CHICKEN SHOYU RAMEN PIC BORDER*/
+.pic img{
+  border: 6px #d87093 solid;
+  width: 85%;
+  border-radius: 50px;
+  border-color: rgb(165, 48, 115);
+  box-shadow: 2px 2px 2px 2px #e66eb2;
+}
+
+/*CHICKEN SHOYU RAMEN PIC SIZE*/
+.banner{
+  flex-basis: 100%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+}
+
+/*DESCRIPTION*/
+.desc{
+  width: 80%;
+  border-radius: 0px;
+  background-color:#d87093;
+  border-color: rgb(165, 48, 115);
+  margin-bottom:20px;
+  margin-right: 3.5%;
+  margin-left: 8.5%;
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 4px;
+}
+
+/*TITLE*/
+h1{
+  @import url(https://fonts.googleapis.com/css?family=Lexend);
+  margin-left: 30px;
+  color: #85135f;
+  font-size: 60px;
+  font-family: "Lexend";
+  font-variant: bold;
+}
+
+/*DESC AND REVIEW TITLES*/
+h2 {
+  @import url(https://fonts.googleapis.com/css?family=Lexend);
+  background-color: snow;
+  border-radius: 0px;
+  color: hsl(320, 74%, 39%);
+  text-align:center;
+  font-size: 30px;
+  font-family: "Lexend";
+  font-variant: bold;
+  margin-top: 0%;
+  border-bottom: #d257a9;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-width: 5px;
+}
+
+/*HOMEPAGE??*/
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*HOMEPAGE??*/
+ul a {
+  @import url(https://fonts.googleapis.com/css?family=Lexend);
+  color: rgb(133, 19, 95);
+  font-size: 20px;
+  font-family: "Lexend";
+  text-align: center;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+/*DESC AND REVIEW CONTENT*/
+p {
+  @import url(https://fonts.googleapis.com/css?family=Lexend);
+  color: #fffafa;
+  font-size: 18px;
+  font-family: "Lexend";
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+
+/*SOCIALS*/
+.socials {
+  flex: 1;
+  margin-left: 20px; 
+  text-align: center; 
+}
+
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/*REVIEW BOX*/
+.review-box {
+  background-color: snow;
+  border-radius: 8px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+/*STEPS TABLE*/
+.steps-table{
+  width: 85%;
+  flex-basis: 100%;
+  margin-left: 0.5%;
+  margin-right: 2.5%;
+  margin-top: 20px;
+  border-color: rgb(165, 48, 115);
+  border-style: solid;
+  border-width: 4px;
+  margin-bottom:20px;
+}
+
+/*TABLE BG*/
+.steps table{
+  border-radius: 8px;
+  overflow: hidden;
+  background-color:snow;
+}
+
+/*TABLE BORDER*/
+table, td, tr{
+  border-color: palevioletred;
+  border: 1.5px dashed;
+  border-collapse: collapse;  
+  
+}
+
+/*TABLE PICS*/
+.steps img{
+  border: 1px solid;
+  border-color: palevioletred;
+  box-shadow: 0 4px 2px -2px gray;
+  height: 100px;
+  border-radius: 8px;
+  width: 120px;
+  height: 120px;
+}
+
+/*TABLE HEADER*/
+thead{
+  @import url(https://fonts.googleapis.com/css?family=Lexend);
+  background-color: #d87093;
+  font-size: 24px;
+  color: snow;
+  font-family: "Lexend";
+}
+
+/*TABLE TEXT ALIGN*/
+thead, th, td{
+  padding: 5px;
+  text-align: center;
+}
+
+/*TABLE TEXT*/
+td{
+  @import url(https://fonts.googleapis.com/css?family=Lexend);
+  color: palevioletred;
+  font-size: 20px;
+  font-family: "Lexend";
+}
+
+
+a {
+  @import url(https://fonts.googleapis.com/css?family=Lexend);
+  color: rgb(133, 19, 95);
+  font-size: 24px;
+  font-family: "Lexend";
+  text-align: center;
+  font-variant: bold;
+}
+
+/*REVIEW FORM*/
+form input{   
+  @import url(https://fonts.googleapis.com/css?family=Lexend);
+  font-family: "Lexend";
+  width: 96.5%;  
+  margin-bottom: 10px;
+  background: snow;
+  height: 20px;
+  margin-left: 1.5%;
+  border-color: rgb(245, 169, 182);
+  padding: 5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*REVIEW FORM*/
+form textarea {
+  @import url(https://fonts.googleapis.com/css?family=Lexend);
+  font-family: "Lexend";
+  width: 96.5%;   
+  margin-bottom: 2px;
+  background: snow;
+  height: 250px;
+  border-color: pink;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 1.5%;
+  box-sizing: border-box;
+}
+
+/*REVIEW FORM BUTTON*/
+form button {
+  @import url(https://fonts.googleapis.com/css?family=Lexend);
+  font-family: "Lexend";
+  padding: 15px;
+  width: 80%;
+  background-color: #ea799d;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-left: 10%;
+  box-sizing: border-box;
+  color: #fffafa;
+  border-color: #ad4266;
+}
+
+
+/*SOCIALS ICONS*/
+.socials img{
+  height: 50px;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+
+  body {
+      font-size: 12px;
+  }
+
+  .header img {
+      height: 100px;
+  }
+
+  h1 {
+      font-size: 36px;
+  }
+
+  .banner, .recipe-container {
+      width: 100%;
+      margin: auto;
+  }
+
+  .banner {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .desc {
+      width: 100%;
+  }
+
+  .steps img {
+      height: 70px;
+  }
+
+  ul {
+      flex-direction: column;
+      margin: 10px 0;
+  }
+
+  ul a {
+      font-size: 18px;
+      padding: 8px 16px;
+  }
+
+}

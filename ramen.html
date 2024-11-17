@@ -1,73 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Shoyu Chicken Ramen"
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="LOGO image/logo.png">
-    <title>Shoyu Chicken Ramen</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Chicken Shoyu Ramen"
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Chicken Shoyu Ramen</title>
+      <link rel="stylesheet" href="ramen.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend">
+      <link rel="icon" href="LOGO image/logo.png">
 </head>
+
 <body>
-    <style>
-    body {
-        background-color: palevioletred;
-      }
-
-      h1 {
-        background-image: url('mainbg.jpg');
-        color: rgb(180, 9, 123);
-        text-align: center;
-        font-size: 48px;
-        font-family: verdana;
-        font-variant: bold;
-        }
-
-      h2 {
-        text-decoration: underline;
-        color: rgb(255, 237, 249);
-        text-align: center;
-        font-size: 30px;
-        font-family: verdana;
-        font-variant: bold;
-        text-shadow: 0 4px 2px -2px rgb(44, 8, 8);
-      }
-img {
-        float: right;
-        border: 10px solid rgb(255, 255, 255);
-        border-style:dashed;
-        border-radius: 5px rgb(255, 255, 255);
-        width: 45%;
-      }
-
-      p {
-        color: rgb(255, 208, 239);
-        font-size: 24px;
-        font-family: verdana;
-        text-align: center; 
-        font-variant: bold;
-      }
-
-    </style>
-<h1>SHOYU CHICKEN RAMEN</h1>
-
-    <img src='RAMEN image/shoyu_chicken_ramen.jpg'>
-
-    <h2> Cuisine Description</h2>
-    <p>
-        Looking for a meal that will warm both your soul and the senses?
-    </p>
-    <p>
-        Warm up with a bowl of inspiration and tradition brought together in our<br>
-        Signature Shoyu Chicken Ramen! Succulent slices of juicy chicken<br>
-        lightly seared for a crispy finish atop a fragrant soy-based broth. A touch<br>
-        of tradition graces the bowl with a swirl of narutomaki and a crispy sheet of<br>
-        nori, making each spoonful a taste of comfort and authentic Japanese cuisine.
-    </p>
-        <br>
-        <br>
-
-    <h2>Reviews</h2>
-    <p>
+  <div class ="hero">
+    <div class ="header">
+      <img src="LOGO image/logo.png">
+      <h1><b>Chicken Shoyu Ramen</b></h1>
+      <ul>
+        <li><a href="index.html"><img src="RAMEN image/homepage_icon.png"></a></li>
+      </ul>
+    </div>
+  </div>
+    
+  <div class="banner">
+    <div class ="desc">
+      <h2>Description</h2>
+      <p>Warm up with a bowl of inspiration and tradition brought together in our signature Shoyu Chicken Ramen! Succulent slices of juicy chicken lightly seared for a crispy finish atop a fragrant soy-based broth. A touch of tradition graces the bowl with a swirl of narutomaki and a crispy sheet of nori, making each spoonful a taste of comfort and authentic Japanese cuisine.
+      </p>
+      <h2>Reviews!</h2>
+      <p>
         "Looooved it!!" <br>
         "ramen indeed touched my soul" <br>
         "ATEEEEE (literally)"<br>
@@ -75,7 +35,81 @@ img {
         "melted in my mouth"<br>
         "did not dissapoint"<br>
         "bussin af"
-    </p>
+      </p>
+      <div class="review-box">
+        <h2>Leave a Review!</h2>
+        <form action="">
+            <input type="text" name="full_name" placeholder="Enter Your Name">
+            <input type="email" name="email" placeholder="Enter Your Email Address">
+            <textarea name="comment" placeholder="Leave a comment..."></textarea>
+            <button class="comment-submit">Upload</button>
+        </form>        
+      </div>
+      <div class ="socials">
+        <a href="https://www.instagram.com/"><img src="RAMEN image/instagram_icon.png"></a>
+        <a href="https://www.youtube.com/"><img src="RAMEN image/youtube_icon.png"></a>
+        <a href="https://www.x.com/"><img src="RAMEN image/x_icon.png"></a>
+      </div>
+    </div>
+    <div class="picture">
+      <div class="pic">
+        <img src="RAMEN image/shoyu_chicken_ramen.jpg" alt="Chicken Shoyu Ramen">
+      </div>
+      <div class="steps-table">
+        <div class="steps">
+          <table style="width:100%">
+            <tr>
+              <thead>
+                <th style="width:10%">No.</th>
+                <th style="width:60%">Steps</th>
+                <th style="width:40%"></th>
+              </thead>
+            </tr>
+            <tr>
+              <td><b>1.</b></td>
+              <td><b>Prepare the Broth:</b><br>
+                In a pot, simmer chicken stock with soy sauce, mirin, sake, ginger, and garlic for 20 to 30 minutes. Adjust seasoning with soy sauce for desired saltiness.
+              </td>
+              <td><img src="RAMEN image/prepare_broth.jpg"></td>
+            </tr>
+            <tr>
+              <td><b>2.</b></td>
+              <td><b>Cook the Chicken:</b>
+              </br>
+              Poach chicken breast or thighs in the broth until tender. Slice thinly.
+              </td>
+              <td><img src="RAMEN image/cook_chicken"></td>
+            </tr>
+            <tr>
+              <td><b>3.</b></td>
+              <td><b>Boil the Noodles:</b>
+              </br>
+              Cook noodles in boiling water per package instructions. Drain and set aside.
+              </td>
+              <td><img src="RAMEN image/boil_noodles.jpg"></td>
+            </tr>
+            <tr>
+              <td><b>4.</b></td>
+              <td><b>Assemble:</b>
+              </br>
+              Place noodles in a bowl. Ladle the hot broth over them. Arrange sliced chicken, a halved soft-boiled egg, and other toppings like nori, bamboo shoots, and green onions.
+              </td>
+              <td><img src="RAMEN image/assemble.jpg"></td>
+            </tr>
+            <tr>
+              <td><b>5.</b></td>
+              <td><b>Serve!</b>
+              </br>
+              Garnish with sesame seeds or chili oil if desired. Serve hot!
+              </td>
+              <td><img src="RAMEN image/shoyu_chicken_ramen.jpg"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  
 </body>
 </html>
